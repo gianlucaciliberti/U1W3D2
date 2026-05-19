@@ -41,7 +41,9 @@ ul {
 li {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  display: flex;
 }
+
 
 /* Aggiungi qui le tue regole CSS per:
    - .priorita-alta / .priorita-media / .priorita-bassa
@@ -49,3 +51,39 @@ li {
    - .data (la data di creazione)
    - .evidenziato (sfondo giallo, bordo)
 */
+.priorita-ALTA {
+    background-color: #FDE2E2;
+    padding: 12px;
+}
+
+.priorita-MEDIA {
+    background-color: #FFFBE6;
+    border: 3px solid #F6C948;
+
+}
+
+.priorita-BASSA {
+    background-color: #E2F5E2;
+}
+
+.badge {
+    color: white;
+    background-color: rgb(1, 1, 55) ;
+    margin-left: 30px;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 80%;
+    padding: 3px;
+}
+
+.data {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.elimina {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
