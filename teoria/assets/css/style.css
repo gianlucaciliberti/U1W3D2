@@ -19,7 +19,8 @@ body {
 h1 {
 	text-align: center;
 }
-#subTitle {
+
+.redText {
 	color: red;
 }
 
@@ -30,4 +31,28 @@ h1 {
 
 .image {
 	width: 15%;
+	width: 25%;
 }
+
+#interruttore {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	cursor: pointer;
+	text-align: center;
+}
+
+.yellowBg {
+	background-color: yellow;
+}
+
+.icon {
+	width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
