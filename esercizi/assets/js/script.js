@@ -52,23 +52,20 @@ aggiungiTask("Riposarsi", "BASSA");
 */
 function contaPerPriorita() {
   const tasks = lista.querySelectorAll("li");
-
   let conta = {
     ALTA: 0,
     MEDIA: 0,
     BASSA: 0
   };
-
+  
   tasks.forEach(task => {
     if (task.classList.contains("priorita-ALTA")) {
       conta.ALTA++;
-    }
-
+    } 
     if (task.classList.contains("priorita-MEDIA")) {
       conta.MEDIA++;
     }
-
-    if (task.classList.contains("priorita-BASSA")) {
+    if (task.classList.contains("priorita-BASSA"))  {
       conta.BASSA++;
     }
   });
